@@ -1,0 +1,201 @@
+District,Transaction_Year,Quarters,registeredUsers
+bengaluru urban,2018,1,1922368
+pune,2018,1,1211643
+jaipur,2018,1,900773
+mumbai suburban,2018,1,719300
+hyderabad,2018,1,655175
+rangareddy,2018,1,635175
+thane,2018,1,631864
+ahmadabad,2018,1,572811
+medchal malkajgiri,2018,1,549429
+visakhapatnam,2018,1,497187
+bengaluru urban,2018,2,2553312
+pune,2018,2,1592293
+jaipur,2018,2,1182983
+mumbai suburban,2018,2,957633
+thane,2018,2,861292
+hyderabad,2018,2,842483
+rangareddy,2018,2,804959
+ahmadabad,2018,2,751746
+medchal malkajgiri,2018,2,696211
+surat,2018,2,652372
+bengaluru urban,2018,3,3167597
+pune,2018,3,1974138
+jaipur,2018,3,1438305
+mumbai suburban,2018,3,1218632
+thane,2018,3,1104206
+hyderabad,2018,3,1024241
+rangareddy,2018,3,963186
+ahmadabad,2018,3,919252
+medchal malkajgiri,2018,3,828425
+surat,2018,3,808005
+bengaluru urban,2018,4,4126734
+pune,2018,4,2498852
+jaipur,2018,4,1733893
+mumbai suburban,2018,4,1578487
+thane,2018,4,1473811
+hyderabad,2018,4,1336872
+rangareddy,2018,4,1217664
+ahmadabad,2018,4,1212636
+medchal malkajgiri,2018,4,1056739
+surat,2018,4,998807
+bengaluru urban,2019,1,5003207
+pune,2019,1,3038402
+jaipur,2019,1,2060175
+mumbai suburban,2019,1,1901210
+thane,2019,1,1834051
+hyderabad,2019,1,1638436
+rangareddy,2019,1,1470874
+ahmadabad,2019,1,1450100
+medchal malkajgiri,2019,1,1279531
+surat,2019,1,1180819
+bengaluru urban,2019,2,5694165
+pune,2019,2,3514081
+jaipur,2019,2,2290462
+mumbai suburban,2019,2,2151657
+thane,2019,2,2118406
+hyderabad,2019,2,1856926
+ahmadabad,2019,2,1656341
+rangareddy,2019,2,1651300
+medchal malkajgiri,2019,2,1428880
+surat,2019,2,1338584
+bengaluru urban,2019,3,6383771
+pune,2019,3,4004991
+jaipur,2019,3,2520933
+mumbai suburban,2019,3,2407754
+thane,2019,3,2396815
+hyderabad,2019,3,2071673
+ahmadabad,2019,3,1848860
+rangareddy,2019,3,1826019
+medchal malkajgiri,2019,3,1572320
+surat,2019,3,1481391
+bengaluru urban,2019,4,7016836
+pune,2019,4,4416899
+jaipur,2019,4,2746860
+thane,2019,4,2638051
+mumbai suburban,2019,4,2630360
+hyderabad,2019,4,2283903
+ahmadabad,2019,4,2015947
+rangareddy,2019,4,2001437
+medchal malkajgiri,2019,4,1714832
+north twenty four parganas,2019,4,1638605
+bengaluru urban,2020,1,7564577
+pune,2020,1,4802397
+jaipur,2020,1,2966508
+thane,2020,1,2878073
+mumbai suburban,2020,1,2843378
+hyderabad,2020,1,2483843
+ahmadabad,2020,1,2185983
+rangareddy,2020,1,2166829
+medchal malkajgiri,2020,1,1845599
+north twenty four parganas,2020,1,1789973
+bengaluru urban,2020,2,8028070
+pune,2020,2,5144688
+jaipur,2020,2,3182014
+thane,2020,2,3135101
+mumbai suburban,2020,2,3060916
+hyderabad,2020,2,2653534
+ahmadabad,2020,2,2384154
+rangareddy,2020,2,2313748
+north twenty four parganas,2020,2,1966125
+medchal malkajgiri,2020,2,1963353
+bengaluru urban,2020,3,8611452
+pune,2020,3,5546002
+jaipur,2020,3,3433167
+thane,2020,3,3401853
+mumbai suburban,2020,3,3304696
+hyderabad,2020,3,2875965
+ahmadabad,2020,3,2580178
+rangareddy,2020,3,2495699
+north twenty four parganas,2020,3,2143943
+medchal malkajgiri,2020,3,2111567
+bengaluru urban,2020,4,9286243
+pune,2020,4,6033615
+thane,2020,4,3727358
+jaipur,2020,4,3679874
+mumbai suburban,2020,4,3609970
+hyderabad,2020,4,3142385
+ahmadabad,2020,4,2787991
+rangareddy,2020,4,2704868
+north twenty four parganas,2020,4,2321888
+medchal malkajgiri,2020,4,2282695
+bengaluru urban,2021,1,9955387
+pune,2021,1,6481971
+thane,2021,1,4014464
+jaipur,2021,1,3951866
+mumbai suburban,2021,1,3886500
+hyderabad,2021,1,3379663
+ahmadabad,2021,1,2999575
+rangareddy,2021,1,2906635
+north twenty four parganas,2021,1,2491076
+surat,2021,1,2458596
+bengaluru urban,2021,2,10604609
+pune,2021,2,6915820
+thane,2021,2,4290066
+jaipur,2021,2,4226231
+mumbai suburban,2021,2,4151227
+hyderabad,2021,2,3598337
+ahmadabad,2021,2,3209841
+rangareddy,2021,2,3097973
+north twenty four parganas,2021,2,2660664
+surat,2021,2,2633443
+bengaluru urban,2021,3,11321012
+pune,2021,3,7398336
+thane,2021,3,4597394
+jaipur,2021,3,4534297
+mumbai suburban,2021,3,4444495
+hyderabad,2021,3,3839513
+ahmadabad,2021,3,3445024
+rangareddy,2021,3,3310906
+north twenty four parganas,2021,3,2852030
+surat,2021,3,2830392
+bengaluru urban,2021,4,12038775
+pune,2021,4,7880431
+thane,2021,4,4906492
+jaipur,2021,4,4841883
+mumbai suburban,2021,4,4740546
+hyderabad,2021,4,4081185
+ahmadabad,2021,4,3679243
+rangareddy,2021,4,3523496
+north twenty four parganas,2021,4,3043008
+surat,2021,4,3026960
+bengaluru urban,2022,1,12707664
+pune,2022,1,8331582
+thane,2022,1,5196050
+jaipur,2022,1,5133527
+mumbai suburban,2022,1,5017556
+hyderabad,2022,1,4306136
+ahmadabad,2022,1,3897869
+rangareddy,2022,1,3722676
+north twenty four parganas,2022,1,3224459
+surat,2022,1,3210535
+bengaluru urban,2022,2,13342916
+pune,2022,2,8757249
+thane,2022,2,5471749
+jaipur,2022,2,5409763
+mumbai suburban,2022,2,5281053
+hyderabad,2022,2,4519625
+ahmadabad,2022,2,4105172
+rangareddy,2022,2,3911372
+north twenty four parganas,2022,2,3397791
+surat,2022,2,3385398
+bengaluru urban,2022,3,13997602
+pune,2022,3,9194074
+thane,2022,3,5757165
+jaipur,2022,3,5696726
+mumbai suburban,2022,3,5555095
+hyderabad,2022,3,4739891
+ahmadabad,2022,3,4319512
+rangareddy,2022,3,4105107
+north twenty four parganas,2022,3,3578500
+surat,2022,3,3567767
+bengaluru urban,2022,4,14654455
+pune,2022,4,9622338
+thane,2022,4,6042267
+jaipur,2022,4,5975863
+mumbai suburban,2022,4,5831539
+hyderabad,2022,4,4962214
+ahmadabad,2022,4,4530853
+rangareddy,2022,4,4296707
+north twenty four parganas,2022,4,3755017
+surat,2022,4,3747780

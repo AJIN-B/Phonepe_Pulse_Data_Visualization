@@ -1,0 +1,201 @@
+States,Transaction_Year,Quarters,registeredUsers
+maharashtra,2018,1,6106994
+uttar pradesh,2018,1,4694250
+karnataka,2018,1,3717763
+andhra pradesh,2018,1,3336450
+telangana,2018,1,3315560
+rajasthan,2018,1,3158202
+gujarat,2018,1,2690048
+west bengal,2018,1,2604789
+madhya pradesh,2018,1,2553603
+bihar,2018,1,2133804
+maharashtra,2018,2,8222371
+uttar pradesh,2018,2,6442554
+karnataka,2018,2,5030665
+andhra pradesh,2018,2,4402540
+telangana,2018,2,4260115
+rajasthan,2018,2,4212964
+west bengal,2018,2,3833795
+gujarat,2018,2,3565825
+madhya pradesh,2018,2,3441662
+bihar,2018,2,3005872
+maharashtra,2018,3,10435033
+uttar pradesh,2018,3,8096483
+karnataka,2018,3,6372649
+andhra pradesh,2018,3,5427617
+rajasthan,2018,3,5175453
+telangana,2018,3,5138501
+west bengal,2018,3,4851740
+gujarat,2018,3,4433183
+madhya pradesh,2018,3,4309309
+tamil nadu,2018,3,3900177
+maharashtra,2018,4,13381602
+uttar pradesh,2018,4,10341964
+karnataka,2018,4,8315802
+andhra pradesh,2018,4,6857409
+telangana,2018,4,6529679
+rajasthan,2018,4,6358738
+west bengal,2018,4,6279278
+gujarat,2018,4,5579040
+madhya pradesh,2018,4,5365442
+tamil nadu,2018,4,5199878
+maharashtra,2019,1,16284451
+uttar pradesh,2019,1,12458661
+karnataka,2019,1,10266174
+andhra pradesh,2019,1,8283019
+telangana,2019,1,7963425
+rajasthan,2019,1,7712204
+west bengal,2019,1,7449425
+gujarat,2019,1,6652536
+madhya pradesh,2019,1,6414403
+tamil nadu,2019,1,6296303
+maharashtra,2019,2,18776975
+uttar pradesh,2019,2,14316349
+karnataka,2019,2,11968087
+andhra pradesh,2019,2,9389003
+telangana,2019,2,9046007
+rajasthan,2019,2,8783935
+west bengal,2019,2,8612795
+gujarat,2019,2,7574645
+tamil nadu,2019,2,7429609
+madhya pradesh,2019,2,7301172
+maharashtra,2019,3,21313081
+uttar pradesh,2019,3,16044607
+karnataka,2019,3,13635075
+andhra pradesh,2019,3,10458693
+telangana,2019,3,10090557
+rajasthan,2019,3,9797304
+west bengal,2019,3,9643222
+gujarat,2019,3,8429299
+tamil nadu,2019,3,8428835
+madhya pradesh,2019,3,8180664
+maharashtra,2019,4,23745297
+uttar pradesh,2019,4,17949542
+karnataka,2019,4,15385416
+andhra pradesh,2019,4,11757883
+telangana,2019,4,11220691
+rajasthan,2019,4,10925031
+west bengal,2019,4,10885058
+tamil nadu,2019,4,9620493
+gujarat,2019,4,9323799
+madhya pradesh,2019,4,9165241
+maharashtra,2020,1,26168390
+uttar pradesh,2020,1,20136256
+karnataka,2020,1,17016980
+andhra pradesh,2020,1,13022060
+telangana,2020,1,12306860
+rajasthan,2020,1,12142053
+west bengal,2020,1,11960822
+tamil nadu,2020,1,10872368
+gujarat,2020,1,10259843
+madhya pradesh,2020,1,10151371
+maharashtra,2020,2,28765086
+uttar pradesh,2020,2,22498519
+karnataka,2020,2,18655366
+andhra pradesh,2020,2,14319675
+rajasthan,2020,2,13563201
+telangana,2020,2,13378191
+west bengal,2020,2,13222022
+tamil nadu,2020,2,12150786
+gujarat,2020,2,11392657
+madhya pradesh,2020,2,11374423
+maharashtra,2020,3,31409513
+uttar pradesh,2020,3,24838116
+karnataka,2020,3,20487550
+andhra pradesh,2020,3,15692405
+rajasthan,2020,3,14969412
+telangana,2020,3,14590882
+west bengal,2020,3,14448366
+tamil nadu,2020,3,13643451
+madhya pradesh,2020,3,12564224
+gujarat,2020,3,12467847
+maharashtra,2020,4,34432631
+uttar pradesh,2020,4,27249134
+karnataka,2020,4,22400182
+andhra pradesh,2020,4,17076565
+rajasthan,2020,4,16329494
+telangana,2020,4,15927797
+west bengal,2020,4,15662093
+tamil nadu,2020,4,15357586
+madhya pradesh,2020,4,13737947
+gujarat,2020,4,13605203
+maharashtra,2021,1,37077537
+uttar pradesh,2021,1,29482075
+karnataka,2021,1,24095832
+andhra pradesh,2021,1,18363733
+rajasthan,2021,1,17661088
+telangana,2021,1,17149069
+west bengal,2021,1,16808799
+tamil nadu,2021,1,16632608
+madhya pradesh,2021,1,14839427
+gujarat,2021,1,14670126
+maharashtra,2021,2,39664697
+uttar pradesh,2021,2,31651894
+karnataka,2021,2,25751023
+andhra pradesh,2021,2,19620905
+rajasthan,2021,2,18980985
+telangana,2021,2,18306880
+west bengal,2021,2,17979979
+tamil nadu,2021,2,17804542
+madhya pradesh,2021,2,15940935
+gujarat,2021,2,15735981
+maharashtra,2021,3,42581217
+uttar pradesh,2021,3,34151882
+karnataka,2021,3,27614221
+andhra pradesh,2021,3,21059898
+rajasthan,2021,3,20499465
+telangana,2021,3,19615278
+west bengal,2021,3,19323278
+tamil nadu,2021,3,19127440
+madhya pradesh,2021,3,17210233
+gujarat,2021,3,16946761
+maharashtra,2021,4,45482506
+uttar pradesh,2021,4,36617655
+karnataka,2021,4,29459646
+andhra pradesh,2021,4,22489029
+rajasthan,2021,4,21977202
+telangana,2021,4,20917649
+west bengal,2021,4,20644527
+tamil nadu,2021,4,20433142
+madhya pradesh,2021,4,18456243
+gujarat,2021,4,18139201
+maharashtra,2022,1,48227630
+uttar pradesh,2022,1,38999692
+karnataka,2022,1,31200349
+andhra pradesh,2022,1,23857951
+rajasthan,2022,1,23398857
+telangana,2022,1,22150612
+west bengal,2022,1,21919787
+tamil nadu,2022,1,21667020
+madhya pradesh,2022,1,19656147
+gujarat,2022,1,19265314
+maharashtra,2022,2,50802786
+uttar pradesh,2022,2,41247289
+karnataka,2022,2,32831447
+andhra pradesh,2022,2,25157264
+rajasthan,2022,2,24716181
+telangana,2022,2,23314363
+west bengal,2022,2,23124388
+tamil nadu,2022,2,22829720
+madhya pradesh,2022,2,20766417
+gujarat,2022,2,20321596
+maharashtra,2022,3,53432602
+uttar pradesh,2022,3,43537920
+karnataka,2022,3,34493994
+andhra pradesh,2022,3,26496330
+rajasthan,2022,3,26042948
+telangana,2022,3,24506111
+west bengal,2022,3,24372048
+tamil nadu,2022,3,24019964
+madhya pradesh,2022,3,21884220
+gujarat,2022,3,21394721
+maharashtra,2022,4,55954028
+uttar pradesh,2022,4,45648650
+karnataka,2022,4,36081698
+andhra pradesh,2022,4,27778016
+rajasthan,2022,4,27255927
+telangana,2022,4,25656381
+west bengal,2022,4,25536381
+tamil nadu,2022,4,25136112
+madhya pradesh,2022,4,22913924
+gujarat,2022,4,22412353
