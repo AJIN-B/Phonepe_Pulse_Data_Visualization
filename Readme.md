@@ -18,6 +18,8 @@ In this project that visualizes transaction and user data to provide insights an
 
 The data used in the PhonePe Pulse project is sourced from PhonePe's transaction and user records. The data is stored in CSV format and preprocessed before visualisations are used.
 
+Dataset Link for [Download](https://github.com/PhonePe/pulse)
+
 #### To run this app
 
 `python -m streamlit run app.py`
