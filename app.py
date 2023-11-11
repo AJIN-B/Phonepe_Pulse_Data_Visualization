@@ -1,19 +1,22 @@
 
-import streamlit as st 
+
 from streamlit_option_menu import option_menu 
 import mysql.connector as my_sql 
+from dotenv import load_dotenv
+import streamlit as st 
 from PIL import Image
 import pandas as pd
 import os 
 
+load_dotenv()
 
 Root = os.getcwd()
-mydb = my_sql.connect(host='localhost',user='root',password='ajinleo',database ='phonephe') 
+mydb = my_sql.connect(host=os.getenv('HOST'),user=os.getenv('USER'),
+                      port=os.getenv('PORT'),password=os.getenv('PASSWORD'),database =os.getenv('DATABASE_NAME')) 
 
 def sql_get_data(query):
     cursor = mydb.cursor() 
     cursor.execute(query)
-
     dd = cursor.fetchall() 
     mydb.commit()     
     return dd
@@ -32,12 +35,13 @@ short_state = {'andaman-&-nicobar-islands':'AN', 'assam':"AS",'bihar':"BR",
                'uttar-pradesh':"UP",'uttarakhand':"UK", 'west-bengal':"WB"}
 
 
-st.set_page_config(page_title = 'PhonePe Data plus Harvesting and Analysis' , layout='wide')
+st.set_page_config(page_title = 'PhonePe Data plus Harvesting and Analysis' , layout='wide'
+                   ,menu_items={'About': """### This app is created by *AJIN B*"""})
 
 col11,col21 = st.columns([5,15])
 
 with col11:
-    st.image(Image.open("C:/Users/ajinl/Downloads/phonepe.png"),width = 250)
+    st.image(Image.open(os.path.join(Root,"images\\phonepe.png")),width = 250)
 
 with col21:
         st.title(' :violet[PhonePe Pulse Data Visualization and Exploration]') 
@@ -133,9 +137,6 @@ if SELECT == "Basic insights":
         tit = "##### Total Registered Users by District"
         col = ['Districts','registeredUsers','States']
     
-    
-    
-    
     if Year in ['2018', '2019', '2020','2021','2022'] and Quarter in ['1', '2', '3','4'] and \
         Type_ in ['Recharge & bill payments', 'Peer-to-peer payments','Merchant payments', 
                   'Financial Services', 'Others']:
@@ -161,7 +162,6 @@ if SELECT == "Basic insights":
         with col11:
             st.bar_chart(data=df, y=col[1], x=col[0])
     
-    
     elif Year in ['2018', '2019', '2020','2021','2022'] and Quarter in ['1', '2', '3','4']:
         
         year=int(Year)
@@ -185,7 +185,6 @@ if SELECT == "Basic insights":
         with col11:
             st.bar_chart(data=df, y=col[1], x=col[0])
     
-        
     elif Year in ['2018', '2019', '2020','2021','2022'] and Type_ in ['Recharge & bill payments', 
                                                                       'Peer-to-peer payments',
                                                                       'Merchant payments',
@@ -212,8 +211,6 @@ if SELECT == "Basic insights":
             st.dataframe(df, width=500, height=250)
         with col11:
             st.bar_chart(data=df, y=col[1], x=col[0])
-    
-        
     
     elif Quarter in ['1', '2', '3','4'] and Type_ in ['Recharge & bill payments', 
                                                       'Peer-to-peer payments',
@@ -326,33 +323,29 @@ if SELECT == "Home":
     col1,col2 = st.columns(2)
     with col1:
         st.subheader("Phonepe became a leading digital payments company")
-        st.image(Image.open("C:/Users/ajinl/Downloads/images/top.jpeg"),width = 500)
+        st.image(Image.open(os.path.join(Root,"images/top.jpeg")),width = 500)
     with col2:
-        st.image(Image.open("C:/Users/ajinl/Downloads/images/phonepe.png"),width = 500)
+        st.image(Image.open(os.path.join(Root,"images/phonepe.png")),width = 500)
         st.write("---")
         st.subheader("The Indian digital payments story has truly captured the world's imagination."
                  " From the largest towns to the remotest villages, there is a payments revolution being driven by the penetration of mobile phones, mobile internet and states-of-the-art payments infrastructure built as Public Goods championed by the central bank and the government."
                  " Founded in December 2015, PhonePe has been a strong beneficiary of the API driven digitisation of payments in India. When we started, we were constantly looking for granular and definitive data sources on digital payments in India. "
                  "PhonePe Pulse is our way of giving back to the digital payments ecosystem.")
     st.write("---")
-    st.image(Image.open("C:/Users/ajinl/Downloads/images/report.jpeg"),width = 800)
+    st.image(Image.open(os.path.join(Root,"images/report.jpeg")),width = 800)
 
 if SELECT == "Contact":
-    aboutme ="""I am interested in pursuing a career in data science
-              and waiting for a good opportunity to empower my skills and knowledge. 
-              Eagerly to learn and grow in the field of data science
-              and working towards becoming a professional data scientist"""
-    links={
-        "GITHUB": "https://github.com/AJIN-B",
-        "LINKEDIN": "https://www.linkedin.com/in/ajin-b-0851191b0/"}
-    col1, col2= st.columns(2)
-    with col1:
-        st.subheader("Ajin B")
-        st.subheader("Mail : ajinleo9940@gmail.com")
-        st.write(aboutme)
-        S=st.columns(len(links))
-        for i, (x, y) in enumerate(links.items()):
-            S[i].write(f"[{x}]({y})")
+    col1, col2= st.columns([1,7])
+    with col2:
+        st.markdown("<h1 style='text-align: center;'>Hi 👋, I'm Ajin</h1>", unsafe_allow_html=True)
+        st.markdown("- ### I'm currently working as a Assitant Programmer (python,Machine learning,Deep Learning).")
+        st.markdown("- ### Currently learning more about Machine learning, Deep Learning, computer vision and LLM.")
+        st.markdown("- ### Eagerly to learn and grow in the field of data science and working towards becoming a professional the field.")
+        st.markdown("- ### You can find me on [LinkedIn](https://www.linkedin.com/in/ajin-b-0851191b0/).")
+        st.markdown("- ### You can reach out to me at ajin.b.edu@gmail.com.")
+        st.markdown("- ### Know about my [experiences](https://docs.google.com/document/d/14__rAIziYlwmE9QPHz9pM05GEBXuiKYj2VHBbQr05WY/edit?usp=sharing).")
+        st.markdown("- ### Actively seeking opportunities to apply my data science skills to contribute to meaningful projects and make a positive impact.")
 
+    
 
 

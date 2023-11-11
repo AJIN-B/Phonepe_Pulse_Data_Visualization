@@ -1,0 +1,15 @@
+
+# ignoring .env file  
+.env
+
+# ignoring  folders  
+venv
+__pycache__
+
+# files not using
+
+demo.mp4
+demo.webm
+
+trypy.py
+refer.txt
