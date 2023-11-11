@@ -347,5 +347,3 @@ if SELECT == "Contact":
         st.markdown("- ### Actively seeking opportunities to apply my data science skills to contribute to meaningful projects and make a positive impact.")
 
     
-
-
